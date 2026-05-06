@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar{
+    width: 300px;
+    background-color: #121212;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.Logo i{
+    font-size:  34px;
+}
+.Biblioteca{
+    display: flex;
+    align-items: center ;
+    gap: 10px;
+}
+.Biblioteca i, .Biblioteca p{
+    color: #B7B3B6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Criação-de-playlist, .Podcast, .Jogos{
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+}
+.Criação-de-playlist button, .Podcast button, .Jogos button{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size:  12px;
+    border-radius: 20px;
+}
+.Criação-de-playlist p, .Podcast p, .Jogos p{
+    font-size: 12px;
+}
+
+.Footer{
+    margin-top: auto;
+
+}
+.Footer a{
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+.Langue-Button{
+    background-color:  transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding:  8px 12px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.player{
+        height: 80px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-top: 1px solid #282828;
+}
+.Player-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 30%;
+}
+.Player-left img {
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+}
+.Nome-Musica {
+    font-size: 14px;
+    color: #fff;
+}
+.Nome-Banda {
+    font-size: 11px;
+    color: #a7a7a7;
+}
+.Player-Center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.Player-Controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #b3b3b3;
+    font-size: 16px;
+}
