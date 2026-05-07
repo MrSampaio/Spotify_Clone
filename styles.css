@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 100vw;
 }
 
 .container{
@@ -24,7 +25,7 @@ body {
 }
 
 .sidebar{
-    width: 300px;
+    width: 20vw;
     background-color: #121212;
     padding: 10px;
     display: flex;
@@ -87,7 +88,7 @@ body {
     border-radius: 20px;
 }
 .player{
-        height: 80px;
+    height: 80px;
     background-color: #000;
     display: flex;
     align-items: center;
@@ -126,4 +127,48 @@ body {
     gap: 20px;
     color: #b3b3b3;
     font-size: 16px;
+}
+
+header{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    position: relative;
+    width: 30%;
+    height: 5vh;
+    display: flex;    
+    align-items: center;
+    padding: 0 0 0 10px;
+    border-radius: 50px;
+    background-color: #1f1f1f;
+}
+
+.search-icon{
+    height: 100%; 
+    width: 100%;
+    max-width: 50px;
+    min-width: 45px;
+    aspect-ratio: 1 / 1; 
+    max-height: 50px;
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20pt;
+    color: #858585;
+}
+
+.search-input{
+    width: 80%;
+    height: 50px;
+    background-color: #1f1f1f;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    color: #858585;
 }
